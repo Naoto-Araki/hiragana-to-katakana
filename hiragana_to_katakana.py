@@ -13,8 +13,9 @@ def extract_text_from_pdf(pdf_path):
 # 特定の平仮名をカタカナに変換する関数
 def convert_specific_hiragana_to_katakana(text):
     conversions = {
-        "りんご": "リンゴ",
-        "らーめん": "ラーメン"
+        "あざん": "アザン",
+        "ぶるー": "ブルー",
+        "ちーるねるぜん": "チールネルゼン"
     }
     for hiragana, katakana in conversions.items():
         text = text.replace(hiragana, katakana)
