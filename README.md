@@ -1,1 +1,1 @@
-convert_specific_hiragana_to_katakana に変換したいひらがなとカタカナのペアを登録しておくと、PDFファイルを読み込んで、特定のひらがなをカタカナに変換できる。
+hiragana_to_katakana.py内の convert_specific_hiragana_to_katakana に変換したいひらがなとカタカナのペアを登録しておくと、PDFファイルを読み込んで、特定のひらがなをカタカナに変換できる。
