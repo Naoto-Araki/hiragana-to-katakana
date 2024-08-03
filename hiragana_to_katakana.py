@@ -1,5 +1,4 @@
 import PyPDF2
-import jaconv
 
 def extract_text_from_pdf(pdf_path):
     text = ""
