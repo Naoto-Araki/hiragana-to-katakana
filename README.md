@@ -1,3 +1,9 @@
-## ひらがなカタカナ変換
-`hiragana_to_katakana.py`内の`convert_specific_hiragana_to_katakana`に変換したいひらがなとカタカナのペアを登録.\
-PDFファイルを読み込み、該当するひらがなをカタカナに変換する.
+## ひらがなカタカナ変換システム
+
+このシステムでは、指定したひらがなをカタカナに変換する機能を提供します。  
+PDFファイルを読み込み、該当するひらがなをカタカナに変換します。
+
+### 1. 変換ペアの登録
+
+`hiragana_to_katakana.py`内に、変換したいひらがなとカタカナのペアを登録します。  
+具体的には、関数`convert_specific_hiragana_to_katakana`内に、変換したいペアを追加します。
